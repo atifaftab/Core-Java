@@ -16,9 +16,8 @@ print
 import java.util.Scanner;
 
 public class Pattern1 {
-    public static void main(String args[]) {
+    public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
-
         System.out.println("Enter the number for stars ");
         int n = in.nextInt();
 
