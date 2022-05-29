@@ -84,9 +84,9 @@ public class FlatMapExample {
 
         //List<Integer> li = map.values().stream().map(c -> c).collect(Collectors.toList());
         Collection<Map> values = map.values();
-        Object vals = map.values().stream().flatMap(c -> c.values().stream()).collect(Collectors.toList());
-        Object keys = map.values().stream().flatMap(c -> c.keySet().stream()).collect(Collectors.toList());
         Object oKeys = map.keySet().stream().collect(Collectors.toList());
+        Object keys = map.values().stream().flatMap(c -> c.keySet().stream()).collect(Collectors.toList());
+        Object vals = map.values().stream().flatMap(c -> c.values().stream()).collect(Collectors.toList());
         System.out.println(values);
         System.out.println(vals);
         System.out.println(keys);
@@ -103,6 +103,7 @@ public class FlatMapExample {
         map.put("test5", 5);
         map.put("test6", 6);
         List<Integer> li = map.values().stream().map(c -> c).collect(Collectors.toList());
+        System.out.println("yo ");
         System.out.println(li);
     }
 //
