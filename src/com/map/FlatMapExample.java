@@ -3,11 +3,6 @@ package com.map;
 import java.util.*;
 import java.util.stream.Collectors;
 
-
-import java.util.*;
-import java.util.stream.Collectors;
-import java.util.stream.Stream;
-
 public class FlatMapExample {
 
     public static void main(String[] args) {
