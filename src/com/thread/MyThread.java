@@ -1,5 +1,6 @@
 package com.thread;
 
+//extending Thread class
 public class MyThread extends Thread {
     public static void main(String[] args) {
 
