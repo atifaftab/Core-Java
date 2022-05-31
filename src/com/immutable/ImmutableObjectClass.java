@@ -8,7 +8,7 @@ make deep copy for Object
 */
 
 
-public final class ImmutableObjectClass {
+public final class  ImmutableObjectClass {
 
     private final int id;
     final private String name;
