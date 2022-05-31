@@ -2,7 +2,7 @@ package com.string;
 
 import java.util.HashMap;
 import java.util.Map;
-
+//Non Repeating characters in a String
 public class NonRepeating {
     public static void main(String[] args) {
         String str = "abcdeabc";
