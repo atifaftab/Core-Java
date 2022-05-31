@@ -1,10 +1,10 @@
-package com.recusions;
+package com.recursions.factorial;
 
 public class Factorial {
 
     public static void main(String[] args) {
 
-        int fact = factorial(0);
+        int fact = factorial(5);
         System.out.println(fact);
     }
 
