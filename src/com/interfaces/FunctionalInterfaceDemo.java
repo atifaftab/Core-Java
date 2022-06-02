@@ -1,4 +1,6 @@
 package com.interfaces;
 
-public class FunctionalInterfaceDemo {
+public interface FunctionalInterfaceDemo {
+
+    public void print();
 }
